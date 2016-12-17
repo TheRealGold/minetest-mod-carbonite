@@ -103,3 +103,17 @@ minetest.register_node("carbonite:carbonitewallhorizontalline", {
     groups = {cracky = 3},
     drop = "carbonite:carbonitewallhorizontalline"
 })
+minetest.register_node("carbonite:carbonitewallverticalline", {
+    description = "Carbonite Wall Vertical Line",
+    tiles = {
+        "carbonite_wall_verticle.png",
+        "carbonite_wall_verticle.png",
+        "carbonite_wall.png",
+        "carbonite_wall.png",
+        "carbonite_wall_verticle_invert.png",
+        "carbonite_wall_verticle.png"
+    },
+    is_ground_content = true,
+    groups = {cracky = 3},
+    drop = "carbonite:carbonitewallverticallineline"
+})
