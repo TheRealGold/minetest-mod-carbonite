@@ -11,7 +11,7 @@ minetest.register_node("carbonite:carbonitewallsplit", {
     paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
-    drop = "testmod:carbonitewallsplit"
+    drop = "carbonite:carbonitewallsplit"
 })
 minetest.register_node("carbonite:carbonitewalllight", {
     description = "Carbonite Wall Light",
@@ -26,7 +26,7 @@ minetest.register_node("carbonite:carbonitewalllight", {
     paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
-    drop = "testmod:carbonitewalllight"
+    drop = "carbonite:carbonitewalllight"
 })
 minetest.register_node("carbonite:carbonitewall", {
     description = "Carbonite Wall",
@@ -41,7 +41,7 @@ minetest.register_node("carbonite:carbonitewall", {
     paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
-    drop = "testmod:carbonitewall"
+    drop = "carbonite:carbonitewall"
 })
 minetest.register_node("carbonite:carbonitewalldouble", {
     description = "Carbonite Wall Double",
@@ -56,7 +56,7 @@ minetest.register_node("carbonite:carbonitewalldouble", {
     paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
-    drop = "testmod:carbonitewalldouble"
+    drop = "carbonite:carbonitewalldouble"
 })
 minetest.register_node("carbonite:carbonitewallsplitline", {
     description = "Carbonite Wall Split Line",
@@ -71,7 +71,7 @@ minetest.register_node("carbonite:carbonitewallsplitline", {
     paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
-    drop = "testmod:carbonitewallsplitline"
+    drop = "carbonite:carbonitewallsplitline"
 })
 minetest.register_node("carbonite:carbonitewalljunctionline", {
     description = "Carbonite Wall Junction Line",
@@ -86,7 +86,7 @@ minetest.register_node("carbonite:carbonitewalljunctionline", {
     paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
-    drop = "testmod:carbonitewalljunctionline"
+    drop = "carbonite:carbonitewalljunctionline"
 })
 minetest.register_node("carbonite:carbonitewallhorizontalline", {
     description = "Carbonite Wall Horizontal Line",
@@ -101,5 +101,5 @@ minetest.register_node("carbonite:carbonitewallhorizontalline", {
     paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
-    drop = "testmod:carbonitewallhorizontalline"
+    drop = "carbonite:carbonitewallhorizontalline"
 })
