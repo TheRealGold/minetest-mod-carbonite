@@ -8,6 +8,7 @@ minetest.register_node("carbonite:carbonitewallsplit", {
         "carbonite_wall.png",
         "carbonite_wall_light.png"
     },
+    paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
     drop = "testmod:carbonitewallsplit"
@@ -22,6 +23,7 @@ minetest.register_node("carbonite:carbonitewalllight", {
         "carbonite_wall_light.png",
         "carbonite_wall_light.png"
     },
+    paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
     drop = "testmod:carbonitewalllight"
@@ -36,6 +38,7 @@ minetest.register_node("carbonite:carbonitewall", {
         "carbonite_wall.png",
         "carbonite_wall.png"
     },
+    paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
     drop = "testmod:carbonitewall"
@@ -50,6 +53,7 @@ minetest.register_node("carbonite:carbonitewalldouble", {
         "carbonite_wall.png",
         "carbonite_wall.png"
     },
+    paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
     drop = "testmod:carbonitewalldouble"
@@ -64,6 +68,7 @@ minetest.register_node("carbonite:carbonitewallsplitline", {
         "carbonite_wall_horizontal.png",
         "carbonite_wall_light.png"
     },
+    paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
     drop = "testmod:carbonitewallsplitline"
@@ -78,6 +83,7 @@ minetest.register_node("carbonite:carbonitewalljunctionline", {
         "carbonite_wall.png",
         "carbonite_wall_horizontal.png"
     },
+    paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
     drop = "testmod:carbonitewalljunctionline"
@@ -92,6 +98,7 @@ minetest.register_node("carbonite:carbonitewallhorizontalline", {
         "carbonite_wall_horizontal.png",
         "carbonite_wall_horizontal.png"
     },
+    paramtype2 = "facedir",
     is_ground_content = true,
     groups = {cracky = 3},
     drop = "testmod:carbonitewallhorizontalline"
